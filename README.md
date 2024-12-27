@@ -1,17 +1,29 @@
+# Project Setup and Usage Guide
+
 ## Prerequisites
-- **Node.js 23+**  
-  [Download and Install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- **pnpm 9+**  
-  [Installation Guide for pnpm](https://pnpm.io/installation)
-- **A code editor (VS Code)**  
-  [Download Visual Studio Code](https://code.visualstudio.com/download)
+- [**Node.js 23+**](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
+- [**pnpm 9**](https://pnpm.io/installation)
 
-### Setup
-1. Open the `.env` file.
+---
+
+## Setup
+
+1. Open the `.env` file.  
 2. Set the following environment variables:
-   - `OPENAI_API_KEY`
-   - `TELEGRAM_BOT_TOKEN`
+   - `OPENAI_API_KEY`  
+   - `TELEGRAM_BOT_TOKEN`  
 
-### Run
+---
+
+## Update Rabbit
+
+1. Open the `characters/character.json` file.  
+2. Refer to the [Character Guide](https://elizaos.github.io/eliza/docs/core/characterfile/).
+
+---
+
+## Run
+
 ```bash
-pnpm start --characters="characters/rabbit.character.json"
+pnpm i
+pnpm start
